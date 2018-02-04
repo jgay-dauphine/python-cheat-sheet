@@ -1,4 +1,6 @@
 ---
+category: Files
+path: '/Files'
 title: 'Gestion des fichiers'
 
 layout: nil
@@ -20,16 +22,14 @@ Les modes :
 
 ### Ecriture d'un fichier texte
 
-```python
-file = open("testfile.txt","w") 
+```file = open("testfile.txt","w") 
  
 file.write("Hello World") 
 file.write("This is our new text file") 
 file.write("and this is another line.") 
 file.write("Why? Because we can.") 
  
-file.close()
-```
+file.close()```
 
 ### Lecture dans un fichier texte
 ```python
