@@ -13,7 +13,11 @@ layout: nil
 Elle permet d'ouvrir un fichier et de récupérer un descripteur pour le fichier.
 C'est ce descripteur que nous utiliserons pour lire ou écrire dans le fichier.
 
-```file_object = open("filename", "mode")```
+```fileObject = open("filename", "mode")```
+
+
+
+
 
 Les modes :
 * 'r' : ouverture du fichier en lecture
@@ -21,12 +25,18 @@ Les modes :
   détruit)
 * 'a' : ouverture du fichier en écriture et on se place à la fin
 
+
+
+
+
 #### La fonction close()
 
 Elle permet de fermer un fichier et effectue réellement les écritures dans le
 fichier.
 
-```file_object.close()```
+```python
+fileObject.close()
+```
 
 ### Ecriture d'un fichier texte
 
