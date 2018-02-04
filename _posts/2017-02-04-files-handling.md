@@ -10,9 +10,7 @@ layout: nil
 
 #### La fonction open() 
 
-```
-file_object = open("filename", "mode")
-```
+```file_object = open("filename", "mode")```
 
 Les modes :
 * 'r' : ouverture du fichier en lecture
