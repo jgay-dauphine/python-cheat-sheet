@@ -26,7 +26,8 @@ Les modes :
 
 ```Salut la Terre: Hello```
 
-```Salut la Terre Hello```
+```Salut la Terre Hello
+Ici moi. Comment ca va ?```
 
 ```SalutLaTerre: Hello```
 
