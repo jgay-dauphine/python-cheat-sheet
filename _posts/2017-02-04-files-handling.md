@@ -24,6 +24,10 @@ Les modes :
 
 ```Status: 200 OK``` 
 
+```Salut la Terre: Hello```
+
+```SalutLaTerre: Hello```
+
 ```file = open("testfile.txt","w") 
  
 file.write("Hello World") 
