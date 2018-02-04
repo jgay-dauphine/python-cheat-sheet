@@ -1,1 +1,4 @@
-theme: jekyll-theme-slate
+name: Jean-Christophe Gay
+pygments: true
+safe: false
+title: 'Python Cheat Sheets'
