@@ -6,7 +6,7 @@ title: 'Gestion des fichiers'
 layout: nil
 ---
 
-### Ouvrir un fichier
+### Ouvrir un fichier
 
 #### La fonction open() 
 
