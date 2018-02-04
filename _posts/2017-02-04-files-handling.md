@@ -1,6 +1,6 @@
 ---
-category: Files
-path: '/Files'
+category: Fichiers
+path: '/Fichiers'
 title: 'Gestion des fichiers'
 
 layout: nil
@@ -10,7 +10,7 @@ layout: nil
 
 #### La fonction open() 
 
-```python
+```
 file_object = open("filename", "mode")
 ```
 
