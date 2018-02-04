@@ -41,6 +41,7 @@ file.write("Why? Because we can.")
 file.close()```
 
 ### Lecture dans un fichier texte
+
 ```python
 file = open("testfile.text", "r")
 print file.read()      # Affiche tout le fichier
