@@ -18,6 +18,13 @@ Les modes :
   détruit)
 * 'a' : ouverture du fichier en écriture et on se place à la fin
 
+#### La fonction close()
+
+Elle permet de fermer un fichier et effectue réellement les écritures dans le
+fichier.
+
+```file_object.close()```
+
 ### Ecriture d'un fichier texte
 
 ```Status: 200 OK``` 
