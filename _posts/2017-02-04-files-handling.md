@@ -22,6 +22,8 @@ Les modes :
 
 ### Ecriture d'un fichier texte
 
+```Status: 200 OK``` 
+
 ```file = open("testfile.txt","w") 
  
 file.write("Hello World") 
