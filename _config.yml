@@ -1,5 +1,10 @@
 name: Jean-Christophe Gay
-pygments: true
-safe: false
+safe: true
 title: 'Python Cheat Sheets'
+
+markdown: kramdown
 highlighter: rouge
+future: false
+kramdown:
+    input: GFM
+    syntax_higlighter: rouge
