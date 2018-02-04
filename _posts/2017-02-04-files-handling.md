@@ -10,6 +10,9 @@ layout: nil
 
 #### La fonction open() 
 
+Elle permet d'ouvrir un fichier et de récupérer un descripteur pour le fichier.
+C'est ce descripteur que nous utiliserons pour lire ou écrire dans le fichier.
+
 ```file_object = open("filename", "mode")```
 
 Les modes :
