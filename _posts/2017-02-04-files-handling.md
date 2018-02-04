@@ -26,6 +26,8 @@ Les modes :
 
 ```Salut la Terre: Hello```
 
+```Salut la Terre Hello```
+
 ```SalutLaTerre: Hello```
 
 ```file = open("testfile.txt","w") 
