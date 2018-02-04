@@ -5,6 +5,7 @@ layout: nil
 ---
 
 ### Ouvrir un fichier
+
 #### La fonction open() 
 
 ```python
