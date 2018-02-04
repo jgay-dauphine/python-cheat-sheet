@@ -1,6 +1,10 @@
 # python-cheat-sheet
 
-Just some cheat sheets for python on github.io
+Code source des Cheat Sheets pour Python.
+
+Site sur github.io : https://jgay-dauphine.github.io/python-cheat-sheet/
+
+Utilisation du modèle "CARTE" : https://github.com/Wiredcraft/carte
 
 # Booleans
 
