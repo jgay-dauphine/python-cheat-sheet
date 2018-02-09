@@ -21,6 +21,7 @@ d["key2"] = value2
 
 ~~~ python
 d = { "key": value, "key2": value2 }
+~~~
 
 ### Création à partir de deux listes de même taille
 
