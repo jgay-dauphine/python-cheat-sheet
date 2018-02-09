@@ -32,4 +32,14 @@ fichier.
 fileObject.close()
 ~~~
 
+#### Ouverture avec contrôle
 
+Pour contrôler simplement que le fichier est bien ouvert on peut utiliser la forme suivante :
+
+~~~ python
+with open(newfile, 'w') as outfile, open(oldfile, 'r') as infile:
+  for line in infile:
+    if line.startswith(txt):
+      line = line[0:len(txt)] + ' - Truly a great person!\n'
+    outfile.write(line)
+~~~
