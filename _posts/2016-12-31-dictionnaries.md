@@ -35,3 +35,22 @@ d = { "key": value, "key2": value2 }
 {'G': '7', 'F': '6', 'C': '3', 'I': '9', 'E': '5', 
 'A': '1', 'H': '8', 'B': '2', 'D': '4'}
 ~~~
+
+### Supprimer un couple clé-valeur
+
+deux méthodes :
+* utiliser la suppresion globale 'del'
+* utiliser la fonction 'pop(key)' des dictionnaires
+
+~~~ python
+>>> del d[2]
+>>> d
+{'key': 2}
+~~~
+
+~~~ python
+>>> d.pop('key')
+2
+~~~
+
+Attention la fonction pop() renvoit la valeur, ce qui peut être très utile.
