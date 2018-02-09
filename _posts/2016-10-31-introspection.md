@@ -1,4 +1,9 @@
-
+---
+category: Divers
+path: '/Divers'
+title: 'Introspection'
+layout: null
+---
 
 
 ### dir()
