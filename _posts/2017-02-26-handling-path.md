@@ -23,3 +23,19 @@ import os
 
 directory = os.path.dirname(file_path)
 ~~~
+
+### Ajouter un répertoire au milieu d'un path
+
+~~~ python
+>>> import os
+>>> root = os.path.join("c:\\", "test")
+>>> path = os.path.join(root, "sousrep")
+>>> path
+'c:\\test\\sousrep'
+>>> sub = os.path.relpath(path, root)
+>>> sub
+'sousrep'
+>>> new_dir = "newsub"
+>>> os.path.join(root, new_dir, sub)
+'c:\\test\\newsub\\sousrep'
+~~~
