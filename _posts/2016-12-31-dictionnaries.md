@@ -1,7 +1,7 @@
 ---
 category: Dictionaries
 path: '/Dictionnaires'
-title: 'Création d'un dictionnaire'
+title: 'Créer un dictionnaire'
 layout: null
 ---
 
