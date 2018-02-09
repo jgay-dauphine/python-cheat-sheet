@@ -21,3 +21,16 @@ d["key2"] = value2
 
 ~~~ python
 d = { "key": value, "key2": value2 }
+
+### Création à partir de deux listes de même taille
+
+~~~ python
+>>> l = '123456789'
+>>> c = 'ABCDEFGHI'
+>>> dict(zip(l,c))
+{'8': 'H', '6': 'F', '3': 'C', '5': 'E', '9': 'I', 
+'7': 'G', '1': 'A', '4': 'D', '2': 'B'}
+>>> dict(zip(c,l))
+{'G': '7', 'F': '6', 'C': '3', 'I': '9', 'E': '5', 
+'A': '1', 'H': '8', 'B': '2', 'D': '4'}
+~~~
