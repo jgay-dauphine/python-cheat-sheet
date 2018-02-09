@@ -1,11 +1,11 @@
 ---
 category: Fichiers
 path: '/Fichiers'
-title: 'Gestion des fichiers'
+title: 'Ouverture/Fermeture de fichier'
 layout: null
 ---
 
-### Ouvrir un fichier
+### Ouverture et fermeture d'un fichier
 
 #### La fonction open() 
 
@@ -28,34 +28,8 @@ Les modes :
 Elle permet de fermer un fichier et effectue réellement les écritures dans le
 fichier.
 
-~~~python
+~~~ python
 fileObject.close()
-~~~
-
-### Ecriture d'un fichier texte
-
-
-~~~python
-file = open("testfile.txt","w") 
- 
-file.write("Hello World") 
-file.write("This is our new text file") 
-file.write("and this is another line.") 
-file.write("Why? Because we can.") 
- 
-file.close()
-~~~
-
-### Lecture dans un fichier texte
-
-~~~python
-file = open("testfile.text", "r")
-print file.read()      # Affiche tout le fichier
-print file.read(5)     # Affiche les 5 premiers caractères
-print file.readline()  # Affiche la première ligne
-print file.readline(3) # Affiche la 3ème ligne
-print file.readlines() # ['line 1', 'line 2', ..., 'last line'] 
-file.close()
 ~~~
 
 
